@@ -966,13 +966,13 @@ const products: IProductInput[] = [
     tags: []
   },
   {
-    name: 'fnirsi-générateur-de-signal',
+    name: 'fnirsi-generateur-de-signal',
     slug: toSlug(
-      'fnirsi-générateur-de-signal'
+      'fnirsi-generateur-de-signal'
     ),
-    category: 'fnirsi-générateur',
+    category: 'fnirsi-generateur',
     brand: 'caméra',
-    images: ['/images/fnirsi-générateur-de-signal/f1.avif', '/images/fnirsi-générateur-de-signal/f2.avif', '/images/fnirsi-générateur-de-signal/f3.avif', '/images/fnirsi-générateur-de-signal/f4.avif','/images/fnirsi-générateur-de-signal/f5.avif', '/images/fnirsi-générateur-de-signal/f6.avif','/images/fnirsi-générateur-de-signal/f7.avif'],
+    images: ['/images/fnirsi-generateur-de-signal/f1.avif', '/images/fnirsi-generateur-de-signal/f2.avif', '/images/fnirsi-generateur-de-signal/f3.avif', '/images/fnirsi-generateur-de-signal/f4.avif','/images/fnirsi-generateur-de-signal/f5.avif', '/images/fnirsi-generateur-de-signal/f6.avif','/images/fnirsi-generateur-de-signal/f7.avif'],
     isPublished: true,
     price: 99.99,
     listPrice: 0,
