@@ -908,13 +908,13 @@ const products: IProductInput[] = [
     reviews: [],
   },
   {
-    name: 'caméra-de-surveillance-ip-wifi',
+    name: 'camera-de-surveillance-ip-wifi',
     slug: toSlug(
       'camera-de-surveillance-ip-wifi'
     ),
-    category: 'caméra',
-    brand: 'caméra',
-    images: ['/images/caméra-de-surveillance-ip-wifi/ca1.avif', '/images/caméra-de-surveillance-ip-wifi/ca2.avif', '/images/caméra-de-surveillance-ip-wifi/ca3.avif', '/images/caméra-de-surveillance-ip-wifi/ca4.avif'],
+    category: 'camera',
+    brand: 'camera',
+    images: ['/images/camera-de-surveillance-ip-wifi/ca1.avif', '/images/camera-de-surveillance-ip-wifi/ca2.avif', '/images/camera-de-surveillance-ip-wifi/ca3.avif', '/images/camera-de-surveillance-ip-wifi/ca4.avif'],
     isPublished: true,
     price: 99.99,
     listPrice: 0,
@@ -941,8 +941,8 @@ const products: IProductInput[] = [
     slug: toSlug(
       'camera-surveillance'
     ),
-    category: 'caméra',
-    brand: 'caméra',
+    category: 'camera',
+    brand: 'camera',
     images: ['/images/camera-surveillance/cas1.avif', '/images/camera-surveillance/cas2.avif', '/images/camera-surveillance/cas3.avif', '/images/camera-surveillance/cas4.avif','/images/camera-surveillance/cas5.avif', '/images/camera-surveillance/cas6.avif'],
     isPublished: true,
     price: 99.99,
