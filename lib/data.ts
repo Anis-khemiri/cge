@@ -971,7 +971,7 @@ const products: IProductInput[] = [
       'fnirsi-generateur-de-signal'
     ),
     category: 'fnirsi-generateur',
-    brand: 'caméra',
+    brand: 'camera',
     images: ['/images/fnirsi-generateur-de-signal/f1.avif', '/images/fnirsi-generateur-de-signal/f2.avif', '/images/fnirsi-generateur-de-signal/f3.avif', '/images/fnirsi-generateur-de-signal/f4.avif','/images/fnirsi-generateur-de-signal/f5.avif', '/images/fnirsi-generateur-de-signal/f6.avif','/images/fnirsi-generateur-de-signal/f7.avif'],
     isPublished: true,
     price: 99.99,
@@ -999,8 +999,8 @@ const products: IProductInput[] = [
     slug: toSlug(
       'GEYA-Commutateur'
     ),
-    category: 'FNIRSI-générateur',
-    brand: 'caméra',
+    category: 'fnirsi-generateur',
+    brand: 'camera',
     images: ['/images/geya-comutateur/g1.avif', '/images/geya-comutateur/g2.avif', '/images/geya-comutateur/g3.avif', '/images/geya-comutateur/g4.avif','/images/geya-comutateur/g5.avif', '/images/geya-comutateur/g6.avif','/images/geya-comutateur/g7.avif'],
     isPublished: true,
     price: 99.99,
@@ -1030,7 +1030,7 @@ const products: IProductInput[] = [
       'Petit-Plafonnier-LED'
     ),
     category: 'camera',
-    brand: 'caméra',
+    brand: 'camera',
     images: ['/images/petit-plafonnier-led/p1.avif', '/images/petit-plafonnier-led/p2.avif', '/images/petit-plafonnier-led/p3.avif', '/images/petit-plafonnier-led/p4.avif','/images/petit-plafonnier-led/p5.avif', '/images/petit-plafonnier-led/p6.avif' ,'/images/petit-plafonnier-led/p7.avif' ,'/images/petit-plafonnier-led/p8.avif','/images/petit-plafonnier-led/p9.avif','/images/petit-plafonnier-led/p10.avif','/images/petit-plafonnier-led/p11.avif','/images/petit-plafonnier-led/p12.avif','/images/petit-plafonnier-led/p13.avif'],
     isPublished: true,
     price: 99.99,
