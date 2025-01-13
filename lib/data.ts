@@ -882,10 +882,10 @@ const products: IProductInput[] = [
     slug: toSlug(
       '10pcs-citations'
     ),
-    category: 'Shoes',
+    category: 'citations',
     brand: 'Skechers',
-    images: ['/images/10pcs-citations/c1.webp', '/images/10pcs-citations/c2.avif', '/images/10pcs-citations/c3.avif', '/images/10pcs-citations/c4.avif','/images/10pcs-citations/c5.avif','/images/10pcs-citations/c6.avif'],
-    tags: ['best-seller'],
+    images: ['/images/10pcs-citations/c1.webp', '/images/10pcs-citations/c2.avif', '/images/10pcs-citations/c3.avif', '/images/10pcs-citations/c4.avif','/images/10pcs-citations/c5.avif'],
+    
     isPublished: true,
     price: 99.99,
     listPrice: 0,
@@ -906,6 +906,7 @@ const products: IProductInput[] = [
     colors: ['Navy', 'Black', 'Grey'],
 
     reviews: [],
+    tags: ['new-arrival', 'featured','best-seller'],
   },
   {
     name: 'camera-de-surveillance-ip-wifi',
@@ -934,7 +935,7 @@ const products: IProductInput[] = [
     colors: ['Navy', 'Black', 'Grey'],
 
     reviews: [],
-    tags: []
+    tags: ['new-arrival', 'featured','best-seller'],
   },
   {
     name: 'camera-surveillance',
@@ -963,15 +964,15 @@ const products: IProductInput[] = [
     colors: ['Navy', 'Black', 'Grey'],
 
     reviews: [],
-    tags: []
+    tags: ['best-seller','todays-deal']
   },
   {
     name: 'fnirsi-generateur-de-signal',
     slug: toSlug(
       'fnirsi-generateur-de-signal'
     ),
-    category: 'fnirsi-generateur',
-    brand: 'camera',
+    category: 'generateur',
+    brand: 'generateur',
     images: ['/images/fnirsi-generateur-de-signal/f1.avif', '/images/fnirsi-generateur-de-signal/f2.avif', '/images/fnirsi-generateur-de-signal/f3.avif', '/images/fnirsi-generateur-de-signal/f4.avif','/images/fnirsi-generateur-de-signal/f5.avif', '/images/fnirsi-generateur-de-signal/f6.avif','/images/fnirsi-generateur-de-signal/f7.avif'],
     isPublished: true,
     price: 99.99,
@@ -992,15 +993,15 @@ const products: IProductInput[] = [
     colors: ['Navy', 'Black', 'Grey'],
 
     reviews: [],
-    tags: []
+    tags: ['new-arrival','featured']
   },
   {
     name: 'GEYA-Commutateur',
     slug: toSlug(
-      'GEYA-Commutateur'
+      'geya-commutateur'
     ),
-    category: 'fnirsi-generateur',
-    brand: 'camera',
+    category: 'commutateur',
+    brand: 'geya',
     images: ['/images/geya-comutateur/g1.avif', '/images/geya-comutateur/g2.avif', '/images/geya-comutateur/g3.avif', '/images/geya-comutateur/g4.avif','/images/geya-comutateur/g5.avif', '/images/geya-comutateur/g6.avif','/images/geya-comutateur/g7.avif'],
     isPublished: true,
     price: 99.99,
@@ -1027,11 +1028,11 @@ const products: IProductInput[] = [
   {
     name: 'Petit-Plafonnier-LED',
     slug: toSlug(
-      'Petit-Plafonnier-LED'
+      'petit-plafonnier-led'
     ),
-    category: 'camera',
-    brand: 'camera',
-    images: ['/images/petit-plafonnier-led/p1.avif', '/images/petit-plafonnier-led/p2.avif', '/images/petit-plafonnier-led/p3.avif', '/images/petit-plafonnier-led/p4.avif','/images/petit-plafonnier-led/p5.avif', '/images/petit-plafonnier-led/p6.avif' ,'/images/petit-plafonnier-led/p7.avif' ,'/images/petit-plafonnier-led/p8.avif','/images/petit-plafonnier-led/p9.avif','/images/petit-plafonnier-led/p10.avif','/images/petit-plafonnier-led/p11.avif','/images/petit-plafonnier-led/p12.avif','/images/petit-plafonnier-led/p13.avif'],
+    category: 'led',
+    brand: 'led',
+    images: ['/images/petit-plafonnier-led/p1.avif', '/images/petit-plafonnier-led/p2.avif', '/images/petit-plafonnier-led/p3.avif', '/images/petit-plafonnier-led/p4.avif','/images/petit-plafonnier-led/p5.avif', '/images/petit-plafonnier-led/p6.avif' ,'/images/petit-plafonnier-led/p7.avif' ,'/images/petit-plafonnier-led/p8.avif','/images/petit-plafonnier-led/p9.avif','/images/petit-plafonnier-led/p10.avif','/images/petit-plafonnier-led/p11.avif','/images/petit-plafonnier-led/p12.avif'],
     isPublished: true,
     price: 99.99,
     listPrice: 0,
@@ -1051,96 +1052,96 @@ const products: IProductInput[] = [
     colors: ['Navy', 'Black', 'Grey'],
 
     reviews: [],
-    tags: []
+    tags: ['best-seller', 'todays-deal']
   },
-  {
-    name: 'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
-    slug: toSlug(
-      'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes'
-    ),
-    category: 'Shoes',
-    brand: 'DLWKIPV',
-    images: ['/images/p44-1.jpg', '/images/p44-2.jpg'],
-    tags: ['todays-deal'],
-    isPublished: true,
-    price: 36.99,
-    listPrice: 56.9,
-    avgRating: 3.85,
-    numReviews: 14,
-    ratingDistribution: [
-      { rating: 1, count: 0 },
-      { rating: 2, count: 2 },
-      { rating: 3, count: 3 },
-      { rating: 4, count: 4 },
-      { rating: 5, count: 5 },
-    ],
-    countInStock: 44,
-    numSales: 72,
-    description:
-      'Design: Mesh vamp, ventilation. Sole anti-slip groove design, shock absorption and anti-slip. The inside of the shoe is wide and soft, bringing you a good comfortable experience',
-    sizes: ['8', '9', '10', '11', '12'],
-    colors: ['Brown', 'Black', 'Grey'],
+  // {
+  //   name: 'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
+  //   slug: toSlug(
+  //     'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes'
+  //   ),
+  //   category: 'Shoes',
+  //   brand: 'DLWKIPV',
+  //   images: ['/images/p44-1.jpg', '/images/p44-2.jpg'],
+  //   tags: ['todays-deal'],
+  //   isPublished: true,
+  //   price: 36.99,
+  //   listPrice: 56.9,
+  //   avgRating: 3.85,
+  //   numReviews: 14,
+  //   ratingDistribution: [
+  //     { rating: 1, count: 0 },
+  //     { rating: 2, count: 2 },
+  //     { rating: 3, count: 3 },
+  //     { rating: 4, count: 4 },
+  //     { rating: 5, count: 5 },
+  //   ],
+  //   countInStock: 44,
+  //   numSales: 72,
+  //   description:
+  //     'Design: Mesh vamp, ventilation. Sole anti-slip groove design, shock absorption and anti-slip. The inside of the shoe is wide and soft, bringing you a good comfortable experience',
+  //   sizes: ['8', '9', '10', '11', '12'],
+  //   colors: ['Brown', 'Black', 'Grey'],
 
-    reviews: [],
-  },
-  {
-    name: "ASICS Men's GT-2000 13 Running Shoes",
-    slug: toSlug("ASICS Men's GT-2000 13 Running Shoes"),
-    category: 'Shoes',
-    brand: 'ASICS',
-    images: ['/images/p45-1.jpg', '/images/p45-2.jpg'],
-    tags: ['new-arrival', 'featured'],
-    isPublished: true,
-    price: 179.95,
-    listPrice: 200,
-    avgRating: 3.66,
-    numReviews: 15,
-    ratingDistribution: [
-      { rating: 1, count: 1 },
-      { rating: 2, count: 2 },
-      { rating: 3, count: 3 },
-      { rating: 4, count: 4 },
-      { rating: 5, count: 5 },
-    ],
-    countInStock: 45,
-    numSales: 64,
-    description:
-      "At least 50% of the shoe's main upper material is made with recycled content to reduce waste and carbon emissions",
-    sizes: ['8', '9', '10', '11'],
-    colors: ['Blue', 'Black', 'Grey'],
+  //   reviews: [],
+  // },
+  // {
+  //   name: "ASICS Men's GT-2000 13 Running Shoes",
+  //   slug: toSlug("ASICS Men's GT-2000 13 Running Shoes"),
+  //   category: 'Shoes',
+  //   brand: 'ASICS',
+  //   images: ['/images/p45-1.jpg', '/images/p45-2.jpg'],
+  //   tags: ['new-arrival', 'featured'],
+  //   isPublished: true,
+  //   price: 179.95,
+  //   listPrice: 200,
+  //   avgRating: 3.66,
+  //   numReviews: 15,
+  //   ratingDistribution: [
+  //     { rating: 1, count: 1 },
+  //     { rating: 2, count: 2 },
+  //     { rating: 3, count: 3 },
+  //     { rating: 4, count: 4 },
+  //     { rating: 5, count: 5 },
+  //   ],
+  //   countInStock: 45,
+  //   numSales: 64,
+  //   description:
+  //     "At least 50% of the shoe's main upper material is made with recycled content to reduce waste and carbon emissions",
+  //   sizes: ['8', '9', '10', '11'],
+  //   colors: ['Blue', 'Black', 'Grey'],
 
-    reviews: [],
-  },
-  {
-    name: "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes",
-    slug: toSlug(
-      "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes"
-    ),
-    category: 'Shoes',
-    brand: 'Generic',
-    images: ['/images/p46-1.jpg', '/images/p46-2.jpg'],
-    tags: ['best-seller', 'todays-deal'],
-    isPublished: true,
-    price: 32.99,
-    listPrice: 80,
-    avgRating: 3.46,
-    numReviews: 13,
-    ratingDistribution: [
-      { rating: 1, count: 1 },
-      { rating: 2, count: 2 },
-      { rating: 3, count: 3 },
-      { rating: 4, count: 4 },
-      { rating: 5, count: 3 },
-    ],
-    countInStock: 46,
-    numSales: 48,
-    description:
-      'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
-    sizes: ['8', '9', '10', '11'],
-    colors: ['Green', 'Black', 'Grey'],
+  //   reviews: [],
+  // },
+  // {
+  //   name: "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes",
+  //   slug: toSlug(
+  //     "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes"
+  //   ),
+  //   category: 'Shoes',
+  //   brand: 'Generic',
+  //   images: ['/images/p46-1.jpg', '/images/p46-2.jpg'],
+  //   tags: ['best-seller', 'todays-deal'],
+  //   isPublished: true,
+  //   price: 32.99,
+  //   listPrice: 80,
+  //   avgRating: 3.46,
+  //   numReviews: 13,
+  //   ratingDistribution: [
+  //     { rating: 1, count: 1 },
+  //     { rating: 2, count: 2 },
+  //     { rating: 3, count: 3 },
+  //     { rating: 4, count: 4 },
+  //     { rating: 5, count: 3 },
+  //   ],
+  //   countInStock: 46,
+  //   numSales: 48,
+  //   description:
+  //     'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
+  //   sizes: ['8', '9', '10', '11'],
+  //   colors: ['Green', 'Black', 'Grey'],
 
-    reviews: [],
-  },
+  //   reviews: [],
+  // },
 ]
 const reviews = [
   {

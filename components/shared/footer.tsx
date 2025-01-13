@@ -94,11 +94,11 @@ export default function Footer() {
           <div className='max-w-7xl mx-auto py-8 px-4 flex flex-col items-center space-y-4'>
             <div className='flex items-center space-x-4 flex-wrap md:flex-nowrap'>
               <Image
-                src='/icons/logo.svg'
+                src='/images/logo.svg'
                 alt={`${site.name} logo`}
-                width={48}
-                height={48}
-                className='w-14'
+                width={68}
+                height={68}
+                className='w-20 h-20'
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
